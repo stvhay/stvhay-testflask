@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'docker build -t my-flask-image:latest .  '
+        sh 'docker build -t my-flask-image:latest .'
       }
     }
 
